@@ -1,0 +1,17 @@
+# node / build
+node_modules/
+**/node_modules/
+dist/
+.vite/
+.cache/
+*.log
+
+# env & secrets
+.env
+.env.*
+wrangler-dev.toml
+wrangler.*.toml   # if you ever make per-env files with secrets (avoid)
+.edge/            # if you build artifacts locally
+
+# wordpress volumes (if you add dockerized wp later)
+wp-content/uploads/
