@@ -1,5 +1,5 @@
 {
-  "name": "oxyaffiliate",
+  "name": "oxyaffiliate-corev3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -23,11 +23,8 @@
     "url": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3/issues"
   },
   "homepage": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3#readme",
-  "private": true,
-  "workspaces": [
-    "edge",
-    "dash"
-  ],
+  "private": "true",
+
   "devDependencies": {
     "eslint": "^9.33.0",
     "prettier": "^3.6.2",
