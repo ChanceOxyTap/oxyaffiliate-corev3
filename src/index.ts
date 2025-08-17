@@ -1,4 +1,4 @@
-export default {
+c1export default {
   async fetch(req: Request): Promise<Response> {
     const url = new URL(req.url);
 
