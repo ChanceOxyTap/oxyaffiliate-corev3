@@ -1,0 +1,28 @@
+{
+  "name": "@oxyaffiliate/edge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "wrangler dev --port 8790",
+    "build": "wrangler deploy --dry-run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250816.0",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.30.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanceOxyTap/oxyaffiliate-corev3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3/issues"
+  },
+  "homepage": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3#readme"
+}
