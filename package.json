@@ -23,7 +23,8 @@
     "url": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3/issues"
   },
   "homepage": "https://github.com/ChanceOxyTap/oxyaffiliate-corev3#readme",
-  "private": "true",
+  "private": true,
+  "workspaces": ["edge", "oxydash"],
 
   "devDependencies": {
     "eslint": "^9.33.0",
